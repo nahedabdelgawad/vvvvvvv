@@ -1,0 +1,698 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden; 
+}
+nav {
+    position: fixed;
+    width: 100vw;
+    z-index: 30;
+}
+.navbar .container-fluid a:first-of-type{
+    font-size: 20px;
+}
+ .navbar button[type="submit"], .navbar button[type="button"]{
+    width:70px;
+    height: 40px;
+    text-align: center;
+    background-color: rgba(95, 196, 221, 0.9);
+    border: 0;
+    border-radius: 10px;
+}
+input[placeholder="Search"]{
+    border-radius: 10px;
+    border: 1px solid rgba(95, 196, 221, 0.9) !important;
+    color: rgb(95, 196, 221) !important;
+}
+nav a:first-of-type{
+color: rgb(95, 196, 221) !important;
+font-size: 20px !important;
+text-shadow: 1px 1px 1px rgb(95, 196, 221);
+}
+nav #paris{
+    font-size: 30px !important;
+    background: linear-gradient(to right ,rgb(95, 196, 221),rgb(248, 110, 110),rgb(248, 88, 88)) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+nav a:hover{
+    text-shadow: 1px 1px 8px rgb(141, 191, 204);
+}
+nav a:hover::first-letter{
+    color: rgb(16, 165, 202) !important;
+}
+.dropdown-toggle{
+    border: 1px solid rgba(95, 196, 221, 0.9);
+    border-radius: 10px;
+}
+.dropdown-menu{
+    border: 1px solid rgba(95, 196, 221,0.4) !important;
+}
+.dropdown-menu hr{
+    background-color: rgba(95, 196, 221,0.4) !important;
+}
+.dropdown-menu .dropdown-item{
+    font-size: 18px !important;
+    color: rgb(113, 183, 199) !important;
+}
+.modal-footer{
+    margin: auto;
+}
+/*------------------------------------------------------car*/
+.carousel-control-next,.carousel-control-next{
+color: red !important;
+font-size: 40px !important;
+}
+.visually-hidden {
+    color: red !important;
+}
+.carousel-indicators button{
+    margin: 5px !important;
+    background-color: aliceblue !important;
+}
+#carouselExampleDark{
+    padding-left: 0 !important;
+    margin-bottom: 30px !important;
+}
+.carousel-caption{
+    background-color: rgba(105, 215, 243, 0.3) !important;
+    height:220px !important; 
+}
+.carousel-caption h3,.carousel-caption p{
+    color: white;
+}
+.carousel-caption p{
+    font-size: 20px;
+}
+.carousel-item a{
+    background-color:  rgba(95, 196, 221, 0.9);
+    border: 0;
+    border-radius: 15px;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+}
+.carousel-item a:hover ,.carousel-item a:focus{
+    background-color:  rgba(34, 155, 185, 0.9);
+}
+.carousel-indicators {
+    margin-bottom: 40px !important;
+}
+#overlay{
+    z-index: 29;
+}
+#overlay a:hover{
+    color: rgba(95, 196, 221, 0.9) !important;
+    opacity: 0.5 !important;
+}
+#overlay a i{
+    font-size: 50px !important;
+color: rgba(95, 196, 221, 0.9) !important;
+}
+/*----------------------------------------------------------------------------------------welcome*/
+.welcome  {
+   margin-top:0px ;
+}
+.welcome p{
+    color: rgb(6, 120, 148)!important;
+}
+.welcome a{
+    background-color:rgba(95, 196, 221, 0.9) !important ;
+    border-radius: 10px !important;
+    border: 0;
+}
+.welcome a:hover , .welcome a:active{
+    background-color:  rgba(34, 155, 185, 0.9);
+}
+#welPar{
+    background: linear-gradient(90deg ,rgb(56, 191, 224),rgb(238, 142, 142)) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+
+/*--------------------------------------popular dest-*/
+
+#pop h2{ 
+    font-size: 30px !important;
+    background: linear-gradient(to right ,rgb(95, 196, 221),rgb(248, 110, 110),rgb(248, 88, 88)) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+    height: 100px;
+}
+   #pop{
+    background: -webkit-linear-gradient(top,rgb(147, 226, 244),rgba(177, 231, 244,0.8)) !important;
+    height: 100px;
+}
+#accordionFlushExample{
+    z-index: 27;
+    margin-bottom: 20px !important;
+    background: -webkit-linear-gradient(top,rgba(211, 238, 245, 0.9),rgb(147, 226, 244)) !important;
+}
+.accordion-button{
+  font-size: 20px !important;  
+}
+.accordion-button:focus{
+    color: aliceblue !important;
+}
+ .accordion-item, .accordion-button{
+    color :white;
+    background: -webkit-linear-gradient(top,rgba(211, 238, 245, 0.9),rgb(147, 226, 244)) !important;
+}
+.accordion-body {
+
+    color:gray;
+    background: linear-gradient( to top ,rgb(219, 233, 237),rgb(147, 226, 244),rgb(226, 235, 237)) !important;
+}
+.accordion-item:focus #pop{
+   min-height: 400px !important;
+}
+/*---------------------------------------------translate*/
+#translate{
+    z-index: 20;
+    margin-top: 30px !important;
+    margin-bottom: 20px !important;
+    margin-left: 5px !important;
+}
+
+.card{
+   /* width: 420px; */
+    margin-left: 10px !important;
+    margin-bottom: 10px !important;
+    color: rgb(18, 113, 135) !important
+}
+@media screen and (min-width: 600px){
+    #translate .card{
+        width: 420px !important;
+    }
+}
+@media screen and (max-width: 480px){
+    #translate .card{
+        display: block !important;
+        width: 80% !important;
+    }
+}
+.card-body h5{
+    font-size: 20px !important;
+    text-transform: capitalize !important;
+    color: rgb(18, 113, 135) !important;
+}
+.card-body a{
+    padding-left: 10px !important;
+    font-size: 22px !important;
+    text-decoration: none !important;
+    text-transform: capitalize !important;
+    color:rgba(19, 126, 152, 0.5) !important ;
+}
+.card-body a:hover{
+    color: white !important;
+}
+.card-body button{
+    padding-bottom: 12px;
+    margin-bottom: 10px !important;
+    margin-left: 10px !important;
+    width:70px;
+    height: 40px;
+    text-align: center;
+    color: rgb(108, 202, 225) !important;
+    background-color:white !important ;
+    border: 0;
+    border-radius: 10px;}
+.card{
+   
+    background-color: rgba(95, 196, 221, 0.4) !important ;
+} 
+textarea:placeholder-shown{
+    color:rgb(108, 202, 225) !important;
+}
+
+.btntranslate:active::before,
+.btn:hover::before{
+    display: block !important;
+}
+.btntranslate:hover::after{
+    content: "Copy to Clipboard" !important;
+    color:rgb(108, 202, 225)   !important;
+    background-color: white !important;
+    width: 160px !important;
+    height: 30px !important;
+    display: block !important;
+    border-radius: 10px !important;
+    border:1px solid rgb(108, 202, 225) !important;
+    margin-top: -1px !important;
+    margin-left: 50px !important;
+}
+.btntranslate:active::after{
+    content: "copied" !important;
+    color: rgb(108, 202, 225) !important;
+    background-color:white !important;
+    margin-top: 3px !important;
+    margin-left: 50px !important;
+    border-radius: 10px !important;
+    border:1px solid rgb(108, 202, 225) !important;
+    display: block !important;
+    height: 30px !important;
+    width: 80px !important;
+} 
+/*---------------------------------------------back*/
+.fixed-image1{
+    background-image: url('../images/img_2.jpg') !important;
+    height: 300px !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+/*-----------------------------------------------------tour*/
+#title-tour{
+    background-color:rgba(95, 196, 221, 0.9) !important ;
+    height: 100px !important;
+    position: relative;
+    margin-bottom: 20px !important;
+}
+#title-tour h2{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 30px !important;
+    background: linear-gradient(to right ,rgb(3, 108, 132),rgb(9, 67, 81),rgb(12, 189, 233)) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+}
+#tour{
+    margin: auto !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    justify-content:  space-evenly !important;
+}
+#tour .card{
+    margin-bottom: 40px !important;
+    background-color: rgba(95, 196, 221, 0.4) !important
+}
+@media screen and (min-width: 600px ){
+    #tour .card{
+        width:  22rem !important; 
+    }
+ }
+#tour .card img{
+    width: 320px !important;
+    height:  300px !important;
+    margin: auto !important;
+}
+#tour .card .card-body .card-title{
+    color: white !important;
+}
+#tour .card .card-body a{
+    width:150px;
+    height: 50px;
+    background-color:rgba(95, 196, 221, 0.9) ;
+    border: 0;
+    border-radius: 10px;
+    color: white !important;
+}
+#tour .card{
+    position:  relative !important;
+}
+#tour .card::after{
+    position: absolute !important;
+    content: "" !important;
+    width: 0 !important;
+    height: 0 !important;
+    top:0 !important;
+    left: 0 !important;
+    background-color:rgba(95, 196, 221, 0.5) !important;
+    transition: 1s !important;
+}
+#tour .card:hover::after{
+    width: 100% !important;
+    height: 100% !important;
+}
+#tour .card::before{
+    position: absolute !important;
+    content: "" !important;
+    width: 0 !important;
+    height: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    background-color:rgba(95, 196, 221, 0.3) !important;
+    transition: 1s !important;
+}
+#tour .card:hover::before{
+    width: 100% !important;
+    height: 100% !important;
+}
+/*--------------------------------------------------person*/
+#person{
+   
+    margin: auto !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    justify-content:  space-evenly !important;
+    margin-bottom: 10px !important;
+}
+#person .card{
+    position: relative;
+    background-color:black !important;
+    border: 0 !important;
+    transition: 1s !important;
+    margin-top: 30px !important;
+}
+#person .card:hover{
+    transform: scale(1.1,1.1) !important;
+}
+#person .card {
+    height: 450px !important;
+    position:  relative !important;
+    border-radius: 30px !important;
+    color: whitesmoke !important;
+}
+
+ #person .card-img-overlay{
+    position: absolute !important;
+    top:0  !important;
+    left:0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    transition: 1s !important;
+    border-radius: 30px !important;
+    background-color: rgba(137, 126, 126, 0.6) !important;
+}
+ .card-img-overlay .card-title{
+    color:white !important;
+ }
+ #person .card:hover .card-img-overlay .card-body {
+    transform: translateY(20px) !important;
+ }
+ .card-img-overlay .card-footer{
+    margin-top: 170px !important;
+    border: 0 !important;
+ }
+ .card-img-overlay .media-body{
+    color:whitesmoke !important;
+    font-size: 20px !important;
+ }
+
+    @media screen and (min-width: 600px ){
+        #person .card{
+            width: 22rem!important; 
+        }
+     }
+     @media screen and (max-width: 480px ){
+        #person .card{
+            display: block !important;
+            width: 80% !important; 
+        }
+     }
+ 
+ /*-----------------------------------------------------------------------------------------------news*/
+ #news h2{
+    margin-bottom: 20px;
+    font-size: 40px !important;
+    background: linear-gradient(to right ,rgb(8, 197, 244),rgb(189, 201, 204),rgb(108, 202, 225)) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;
+ }
+ #news .card{
+    
+    margin-bottom: 50px !important;
+    margin: auto !important;
+    margin-bottom: 30px !important;
+    /* width: 80% !important; */
+    background-color: white !important;
+    border-radius: 30px !important;
+    box-shadow:  1px 1px 15px 5px rgb(202, 230, 237)  !important;
+ }
+ .card2 ,.card4{
+    margin-right: -20px !important;
+ }
+ 
+ #news  img{
+    transform: skewX(2deg) !important;
+    transition: 1s !important;
+ }
+ #news .card:hover img{
+    transform: scale(1.1,1.1) !important;
+ }
+ #news .card-body{
+    margin-left:30px !important;
+ }
+ 
+ .cont{
+    position: relative !important;
+
+ }
+ #imagpost {
+    overflow: hidden !important;
+    background-color: aliceblue !important;
+ }
+ .imgPost{
+    
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    width: 250px !important;
+ }
+ .card-body a h3{
+    margin-top: -25px !important;
+ }
+ .card-body a h3:hover{
+    color:rgb(16, 165, 202) !important;
+ }
+ .poadcast1,.poadcast2,.poadcast3{
+    font-size: 20px !important;
+    background-color:rgb(202, 230, 237) ;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 10px;
+    padding-top: 3px;
+ }
+ .poadcast1,.poadcast2{
+    width: 150px;
+    text-align: center;
+}
+ .poadcast3{
+    width: 210px;
+    color:rgb(3, 33, 40)
+ }
+ .poadcast1:hover{
+    background-color:rgb(202, 230, 237) ;
+    opacity: 0.7;
+ }
+ .poadcast2:hover{
+    background-color:rgb(202, 230, 237) ;
+    opacity: 0.7;
+ }
+ .poadcast3:hover{
+    background-color:rgb(202, 230, 237) ;
+    opacity: 0.7;
+ 
+ }
+ .poadcast3:hover a{
+    color: rgb(16, 165, 202) !important;
+ }
+ .postp{
+    line-height: 25px !important;
+
+ }
+ .line-bar{
+    width: 70px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: rgb(20, 175, 213);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 0.2s;
+ }
+ .card:hover .line-bar{
+    width: 110px;
+    height: 7px;
+    border-radius: 7px; 
+ }
+ @media screen and (min-width: 600px ){
+    #news .card{
+        width: 80% !important; 
+    }
+ }
+ @media screen and (max-width: 600px) {
+    #news {
+      .card {
+        height: 700px !important;
+        width:400px !important;
+        margin: auto !important;
+        margin-bottom: 10px !important;
+        margin-left: 50px !important;
+       
+        position:  relative !important;
+      }
+      .card .card-body{
+        z-index: 18 !important;
+        position: absolute;
+        top:300px;
+        margin-left: -10px !important;
+      }
+      .card img{
+      
+       
+        z-index: 20 !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+       width: 400px !important;
+        height: 300px !important;
+        transform: skewX(0) !important;
+        margin-left: 0 !important;
+      }
+     
+      .poadcast1,.poadcast2{
+        width: 100px !important;
+        text-align: center !important;
+        font-size: 20px !important;
+       
+      
+     }
+     .poadcast2{
+        margin-left: -40px !important;
+     }
+     .poadcast3{
+        width: 160px !important;
+        font-size: 20px !important;
+        margin-left: -40px !important;
+     }
+    }
+  }
+ @media screen and (max-width: 480px) {
+    #news {
+      .card {
+        height: 700px !important;
+        width:400px !important;
+        margin: auto !important;
+        margin-bottom: 10px !important;
+        margin-left: 50px !important;
+       
+        position:  relative !important;
+      }
+      .card .card-body{
+        z-index: 18 !important;
+        position: absolute;
+        top:300px;
+        margin-left: -10px !important;
+      }
+      .card img{
+      
+       
+        z-index: 20 !important;
+        position: absolute !important;
+        top: 0 !important;
+        left: 0 !important;
+       width: 400px !important;
+        height: 300px !important;
+        transform: skewX(0) !important;
+        margin-left: 0 !important;
+      }
+     
+      .poadcast1,.poadcast2{
+        width: 100px !important;
+        text-align: center !important;
+        font-size: 20px !important;
+       
+      
+     }
+     .poadcast2{
+        margin-left: -40px !important;
+     }
+     .poadcast3{
+        width: 160px !important;
+        font-size: 20px !important;
+        margin-left: -40px !important;
+     }
+    }
+  }
+ /*-------------------------------------------join*/
+ #join .card {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    /* margin-left: 75px !important; */
+    z-index: 15 !important;
+   background-color: white !important;
+   border-radius: 30px !important;
+   box-shadow:  1px 1px 30px 5px rgb(113, 183, 199)  !important;
+ }
+ @media screen and (mim-width: 600px ){
+    #join .card{
+      width: 290px !important;
+    }
+ }
+ @media screen and (max-width: 320px ){
+    #join .card{
+        display: block !important;
+        width: 80% !important;
+        margin: auto !important;
+        margin-bottom: 10px !important;
+        font-size: 20px !important;
+    }
+ }
+ 
+ #title-join h2{
+    font-size: 40px !important;
+    background: linear-gradient(to right ,rgb(8, 197, 244),rgb(189, 201, 204),rgb(108, 202, 225)) ;
+    -webkit-text-fill-color: transparent; 
+    -webkit-background-clip: text; 
+    background-clip: text;;
+ }
+ #contact{
+    background-color: rgba(95, 196, 221, 0.4) !important;
+    color: black !important;
+ }
+ #contact .card{
+
+ margin-top: 20px !important;
+    margin-left: 30px !important;
+    z-index: 14 !important;
+    background-color: rgba(95, 196, 221, 0) !important;
+    border: 0 !important;
+    color: black !important;
+ }
+ #contact span{
+    font-size: 25px !important;
+    color: rgb(8, 155, 191) !important;
+ }
+ #contact p{
+    padding-left: 30px !important;
+    color: rgb(6, 120, 148) !important;
+
+ }
+ #contact a{
+    padding-left:10px !important ;
+    font-size: 20px !important;
+    color: rgb(6, 120, 148)!important;
+ } 
+
+ #contact a:hover{
+    color: rgb(113, 183, 199) !important;
+ }
+ #contact img{
+    position: relative !important;
+ } 
+ #contact img:hover{
+   background-color: rgb(141, 191, 204) !important;
+   opacity: 0.6 !important;
+ }
+ 
+ @media screen and (min-width: 600px ){
+  #contact .card {
+    width:30% !important;
+}
+}
+@media screen and (max-width: 480px ){
+    #contact .card{
+        display: block !important;
+        width: 50% !important; 
+    }
+    
+ }
+    
